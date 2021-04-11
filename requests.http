@@ -1,0 +1,43 @@
+### SIGNUP
+
+POST http://localhost:5000/api/v1/auth/register
+Content-Type:application/json
+
+{
+    "email": "jho1n@gmail.com",
+    "password":"123456",
+    "first_name": "Jhon",
+    "last_name": "Doe"
+}
+
+### SIGNIN
+
+POST http://localhost:5000/api/v1/auth/login
+Content-Type:application/json
+
+{
+    "email": "jho1n@gmail.com",
+    "password":"123456"
+}
+
+### User Profile
+
+GET http://localhost:5000/api/v1/auth/profile
+Content-Type:application/json
+
+{}
+
+### Is Admin?
+
+GET http://localhost:5000/api/v1/auth/admin
+Content-Type:application/json
+
+{}
+
+### Logout
+
+GET http://localhost:5000/api/v1/auth/logout
+Content-Type:application/json
+
+{}
+
