@@ -2,8 +2,6 @@
 
 This repository created to explain how to implement Node.js application with Passport.js
 
-You can find the full tutorial at this link.
-
 If you have something to add or change, I would be happy to hear about nisanayash93@gmail.com.
 
 ### How to run locally
